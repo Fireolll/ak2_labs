@@ -1,0 +1,17 @@
+    1  ping google.com > /dev/null &
+    2  sudo ping 8.8.8.8 > /dev/null &
+    3  fg
+    4  ps aux | grep ping
+    5  kill 51009
+    6  ps aux | grep ping
+    7  kill 51011
+    8  ps aux | grep ping
+    9  sudo kill 51011
+   10  ps aux | grep ping
+   11  sudo kill -9 51011
+   12  ps aux | grep ping
+   13  sudo killall vlc
+   14  history > history2.txt
+   15  whoami
+   16  date
+   17  history > history2.txt

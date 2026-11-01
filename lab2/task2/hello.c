@@ -1,2 +1,2 @@
 #include <stdio.h>
-int main(void) { printf("Hello, ARM!\n"); return 0; }
+int main(void) { printf("HELLO\n"); return 0; }
